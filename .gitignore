@@ -1,0 +1,41 @@
+# Secrets — NEVER commit these
+.env
+.env.local
+.env.production
+config/config.json
+
+# Output data — contains lead data
+output/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Encryption keys — NEVER commit
+*.key
+*.pem
+*.p12
+secret.key
+fernet.key
